@@ -92,8 +92,8 @@
             ];
 
             return (
-                <div className="flex-1 overflow-y-auto bg-white p-4 md:p-8 custom-scrollbar fade-in">
-                    <div className="max-w-5xl mx-auto space-y-8">
+                <div className="flex-1 overflow-y-auto bg-white p-4 md:p-8 custom-scrollbar fade-in h-full">
+                    <div className="max-w-5xl mx-auto space-y-8 pb-12">
                         
                         {/* Header del Caso */}
                         <div className="bg-slate-900 text-white p-6 rounded-2xl shadow-xl border-l-8 border-yellow-500">
@@ -454,7 +454,7 @@
                         </div>
                     </nav>
 
-                    <main className="flex-1 relative overflow-hidden">
+                    <main className="flex-1 relative overflow-hidden flex flex-col">
                         {view === 'analysis' ? (
                             <CaseAnalysisView navigateToMap={() => setView('map')} />
                         ) : (
