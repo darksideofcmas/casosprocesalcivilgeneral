@@ -51,7 +51,7 @@
         const CaseAnalysisView = ({ navigateToMap }) => {
             const qaData = [
                 {
-                    category: "Familia y Sucesiones",
+                    category: "Familia y sucesiones",
                     color: "blue",
                     items: [
                         { q: "a) ¿Debe liquidarse primero la unión marital o la sucesión?", a: "Primero la Unión Marital. No se puede heredar lo que no pertenece al causante. Se deben separar los gananciales (50% MPT) de la herencia (50% LF). (Sentencia SC005-2021)." },
@@ -62,30 +62,30 @@
                     ]
                 },
                 {
-                    category: "Derecho Bancario y Deudas",
+                    category: "Derecho Bancario y deudas",
                     color: "red",
                     items: [
                         { q: "c) ¿Tiene prelación el Banco frente a los herederos?", a: "SÍ. La hipoteca es una garantía real con preferencia (Crédito de 3ra clase, Art. 2499 C.C.). El banco cobra primero." },
                         { q: "d) ¿Puede adelantarse el remate mientras se tramita la sucesión?", a: "SÍ. La acción real persigue el bien. ESTRATEGIA: Alegar Nulidad por indebida notificación (demandaron a un muerto)." },
-                        { q: "e) ¿Puede suspenderse el remate por existencia de menor heredero?", a: "NO. Las deudas no desaparecen por minoría de edad. El patrimonio responde." },
+                        { q: "e) ¿Puede suspenderse el remate por existencia de menor heredero?", a: "No. Las deudas no desaparecen por minoría de edad. El patrimonio responde." },
                         { q: "o) ¿Puede venderse antes del remate hipotecario?", a: "SÍ, pero condicionado. Se debe pagar al banco para levantar embargo O que el comprador asuma la deuda con autorización del juez/banco (Art. 1521 C.C.)." }
                     ]
                 },
                 {
-                    category: "Alimentos y Menores",
+                    category: "Alimentos y menores",
                     color: "purple",
                     items: [
-                        { q: "i) ¿La emancipación de Julián extingue la obligación alimentaria?", a: "NO necesariamente. Si persiste la necesidad, se deben alimentos hasta los 25 años (si estudia) o de por vida (si hay discapacidad)." },
-                        { q: "j) ¿Procede aumento de alimentos después de la muerte presunta?", a: "NO aumento futuro (el causante murió). Procede el cobro RETROACTIVO como deuda de la herencia." },
+                        { q: "i) ¿La emancipación de Julián extingue la obligación alimentaria?", a: "No necesariamente. Si persiste la necesidad, se deben alimentos hasta los 25 años (si estudia) o de por vida (si hay discapacidad)." },
+                        { q: "j) ¿Procede aumento de alimentos después de la muerte presunta?", a: "No aumento futuro (el causante murió). Procede el cobro RETROACTIVO como deuda de la herencia." },
                         { q: "k) ¿Qué criterios usa el juez para fijar alimentos?", a: "1. Necesidad del alimentario. 2. Capacidad del alimentante (Masa Sucesoral). 3. Posición social (Congruos vs Necesarios)." }
                     ]
                 },
                 {
-                    category: "Bienes y Civil",
+                    category: "Bienes y civil",
                     color: "green",
                     items: [
                         { q: "f) Diferencie bien vacante y mostrenco.", a: "Vacante: Inmueble (Lote) sin dueño conocido. Mostrenco: Mueble (Maquinaria) abandonado." },
-                        { q: "g) ¿Puede la Alcaldía apropiarse directamente del lote?", a: "NO directamente. Requiere proceso judicial para declarar la vacancia y adjudicarlo (ICBF o Fondo de Tierras)." },
+                        { q: "g) ¿Puede la Alcaldía apropiarse directamente del lote?", a: "No directamente. Requiere proceso judicial para declarar la vacancia y adjudicarlo (ICBF o Fondo de Tierras)." },
                         { q: "l) ¿Qué requisitos exige la servidumbre judicial de tránsito?", a: "1. Predio destituido de comunicación (enclavado). 2. Indispensable para el uso. 3. Indemnización al predio sirviente (Art. 905 C.C.)." }
                     ]
                 }
@@ -101,7 +101,7 @@
                             <p className="opacity-80">Parcial Final • Derecho Procesal Civil General</p>
                             <div className="mt-4 flex gap-4">
                                 <button onClick={navigateToMap} className="bg-yellow-500 text-slate-900 px-4 py-2 rounded-lg font-bold hover:bg-yellow-400 transition flex items-center gap-2 shadow-lg">
-                                    <Icons.Map size={20} /> Ir al Mapa Interactivo
+                                    <Icons.Map size={20} /> Ir al Mapa interactivo
                                 </button>
                             </div>
                         </div>
@@ -110,7 +110,7 @@
                         <div className="grid md:grid-cols-2 gap-6">
                             <div className="bg-slate-50 p-6 rounded-xl border border-slate-200 shadow-sm">
                                 <h3 className="text-lg font-bold text-slate-800 mb-3 flex items-center gap-2">
-                                    <Icons.FileText size={20} className="text-blue-600"/> Hechos Relevantes
+                                    <Icons.FileText size={20} className="text-blue-600"/> Hechos relevantes
                                 </h3>
                                 <ul className="list-disc list-inside space-y-2 text-sm text-slate-700">
                                     <li>Convivencia LF y MPT (20 años). Hacienda a nombre de LF.</li>
@@ -135,7 +135,7 @@
                         {/* Resolución por Bloques */}
                         <div>
                             <h3 className="text-xl font-bold text-slate-800 mb-6 pb-2 border-b border-slate-200">
-                                Resolución por Bloques Conceptuales
+                                Resolución del caso porpuesta por blques conceptuales y respuesta a los intrrogantes planteados.
                             </h3>
                             <div className="grid md:grid-cols-2 gap-6">
                                 {qaData.map((block, idx) => (
